@@ -45,6 +45,10 @@ AllowSkipFiles off ; cannot skip a file
 
 !define /file PRODUCT_VERSION "..\version.txt"
 
+!if /FileExists "..\build_arm64\PIMETextService\Release\PIMETextService.dll"
+!define HAVE_ARM64_PIMETS
+!endif
+
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\PIME"
 !define HOMEPAGE_URL "https://github.com/EasyIME/"
 
@@ -160,6 +164,7 @@ Function uninstallOldVersion
 			${EndIf}
 
 			; Handle ARM64 version of PIMETextService.dll
+!ifdef HAVE_ARM64_PIMETS
 			${If} ${IsNativeARM64}
 				SetRegView 64 ; For ARM64, use native 64-bit registry view
 				ExecWait '"$SYSDIR\regsvr32.exe" /u /s "$INSTDIR\arm64\PIMETextService.dll"'
@@ -176,6 +181,7 @@ Function uninstallOldVersion
 					RMDir /REBOOTOK /r "$INSTDIR\arm64"
 				${EndIf}
 			${EndIf}
+!endif
 
 			; Try to terminate running PIMELauncher and the server process
 			; Otherwise we cannot replace it.
@@ -227,6 +233,7 @@ Function uninstallOldVersion
 		${EndIf}
 	${EndIf}
 
+!ifdef HAVE_ARM64_PIMETS
 	${If} ${IsNativeARM64}
 		${If} ${FileExists} "$INSTDIR\arm64\PIMETextService.dll"
 			; Verify the MD5 checksum of ARM64 PIMETextService.dll
@@ -245,6 +252,9 @@ Function uninstallOldVersion
 			${EndIf}
 		${EndIf}
 	${EndIf}
+!else
+	StrCpy $UPDATEARM64DLL "False"
+!endif
 
 	${If} ${FileExists} "$INSTDIR\x86\PIMETextService.dll"
 		; Verify the MD5/SHA1 checksum of 32-bit PIMETextService.dll
@@ -305,11 +315,17 @@ Function .onInit
 
 	File "/oname=$PLUGINSDIR\PIMETextService_x86.dll" "..\build\PIMETextService\Release\PIMETextService.dll"
 	File "/oname=$PLUGINSDIR\PIMETextService_x64.dll" "..\build64\PIMETextService\Release\PIMETextService.dll"
+	!ifdef HAVE_ARM64_PIMETS
 	File "/oname=$PLUGINSDIR\PIMETextService_arm64.dll" "..\build_arm64\PIMETextService\Release\PIMETextService.dll"
+	!endif
 
 	StrCpy $UPDATEX86DLL "True"
 	StrCpy $UPDATEX64DLL "True"
+	!ifdef HAVE_ARM64_PIMETS
 	StrCpy $UPDATEARM64DLL "True"
+	!else
+	StrCpy $UPDATEARM64DLL "False"
+	!endif
 
 	StrCpy $INST_PYTHON "False"
 	StrCpy $INST_CINBASE "False"
@@ -633,6 +649,7 @@ Section "" Register
 		ExecWait '"$SYSDIR\regsvr32.exe" /s "$INSTDIR\x64\PIMETextService.dll"'
 	${EndIf}
 
+	!ifdef HAVE_ARM64_PIMETS
 	${If} ${IsNativeARM64} ; This is a native ARM64 Windows system
 		SetOutPath "$INSTDIR\arm64"
 		${If} $UPDATEARM64DLL == "True"
@@ -641,6 +658,7 @@ Section "" Register
 		; Register COM objects (NSIS RegDLL command is broken and cannot be used)
 		ExecWait '"$SYSDIR\regsvr32.exe" /s "$INSTDIR\arm64\PIMETextService.dll"'
 	${EndIf}
+	!endif
 
 	SetOutPath "$INSTDIR\x86"
 	${If} $UPDATEX86DLL == "True"
@@ -760,10 +778,12 @@ Section "Uninstall"
 		RMDir /REBOOTOK /r "$INSTDIR\x64"
 	${EndIf}
 
+	!ifdef HAVE_ARM64_PIMETS
 	${If} ${IsNativeARM64}
 		ExecWait '"$SYSDIR\regsvr32.exe" /u /s "$INSTDIR\arm64\PIMETextService.dll"'
 		RMDir /REBOOTOK /r "$INSTDIR\arm64"
 	${EndIf}
+	!endif
 
 	; Try to terminate running PIMELauncher and the server process
 	; Otherwise we cannot replace it.

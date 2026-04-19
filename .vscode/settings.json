@@ -44,6 +44,9 @@
   "cmake.configureOnOpen": false,
   "cmake.generator": "Visual Studio 17 2022",
   "cmake.sourceDirectory": "${workspaceFolder}",
+  "terminal.integrated.env.windows": {
+    "PATH": "${env:PATH};C:\\Program Files (x86)\\NSIS"
+  },
   "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
   "python.defaultInterpreterPath": "py",
   "python.analysis.exclude": [

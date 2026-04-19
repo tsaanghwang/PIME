@@ -158,6 +158,19 @@
       "problemMatcher": []
     },
     {
+      "label": "PIME: build installer",
+      "type": "shell",
+      "command": "makensis",
+      "args": [
+        "/V2",
+        "installer.nsi"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}\\installer"
+      },
+      "problemMatcher": []
+    },
+    {
       "label": "PIME: run Python backend",
       "type": "shell",
       "command": "py",
