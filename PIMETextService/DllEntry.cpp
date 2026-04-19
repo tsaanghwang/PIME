@@ -1,5 +1,6 @@
 #include "PIMEImeModule.h"
 #include "resource.h"
+#include <algorithm>
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -12,6 +13,13 @@
 
 
 PIME::ImeModule* g_imeModule = NULL;
+
+static int langProfilePriority(const Ime::LangProfileInfo& profile) {
+	if (profile.name == L"中州韻輸入法 (PIME)") {
+		return 0;
+	}
+	return 100;
+}
 
 BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReserved) {
 	switch (ul_reason_for_call) {
@@ -59,7 +67,7 @@ static inline Ime::LangProfileInfo langProfileFromJson(std::wstring file, std::s
 		// ::MessageBox(0, name.c_str(), 0, 0);
 		auto iconFile = utf8ToUtf16(json["icon"].asCString());
 		if (!iconFile.empty() && PathIsRelative(iconFile.c_str())) {
-			int p = file.rfind('\\');
+			auto p = file.rfind('\\');
 			if (p != file.npos) {
 				iconFile = file.substr(0, p + 1) + iconFile;
 			}
@@ -114,5 +122,16 @@ STDAPI DllRegisterServer(void) {
 			::FindClose(hFind);
 		}
 	}
-	return g_imeModule->registerServer(L"PIMETextService", langProfiles.data(), langProfiles.size());
+	std::stable_sort(langProfiles.begin(), langProfiles.end(), [](const Ime::LangProfileInfo& lhs, const Ime::LangProfileInfo& rhs) {
+		auto lhsPriority = langProfilePriority(lhs);
+		auto rhsPriority = langProfilePriority(rhs);
+		if (lhsPriority != rhsPriority) {
+			return lhsPriority < rhsPriority;
+		}
+		if (lhs.locale != rhs.locale) {
+			return lhs.locale < rhs.locale;
+		}
+		return lhs.name < rhs.name;
+	});
+	return g_imeModule->registerServer(L"PIMETextService", langProfiles.data(), static_cast<int>(langProfiles.size()));
 }
