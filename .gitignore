@@ -2,5 +2,7 @@
 build
 build64
 build_arm64/
+python/__pycache__/
+tools/downloads/
 node/input_methods/McBopomofo
 installer/*.exe
