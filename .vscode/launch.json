@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "PIME Python backend",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/python/server.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "PIME Node backend",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node/server.js",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    }
+  ]
+}
