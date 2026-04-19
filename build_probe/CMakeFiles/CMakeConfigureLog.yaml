@@ -1,0 +1,2115 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\Keyman\\Keyman Developer"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312\\Scripts"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\tsaan\\.local\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tsaan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tsaan\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+      鐢熸垚鍚姩鏃堕棿涓?4/19/2026 9:48:13 AM銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\4.3.1\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\dev\\PIME\\build_probe\\CMakeFiles\\4.3.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淐:\\dev\\PIME\\build_probe\\CMakeFiles\\4.3.1\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:02.09
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/dev/PIME/build_probe/CMakeFiles/4.3.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/"
+      - "C:/Users/tsaan/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/tsaan/.local/bin/"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/link.com"
+    found: "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\Keyman\\Keyman Developer"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312\\Scripts"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\tsaan\\.local\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tsaan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tsaan\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/"
+      - "C:/Users/tsaan/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/tsaan/.local/bin/"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/lld-link.com"
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/lld-link.exe"
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/lld-link"
+      - "C:/Users/tsaan/bin/lld-link.com"
+      - "C:/Users/tsaan/bin/lld-link.exe"
+      - "C:/Users/tsaan/bin/lld-link"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/lld-link"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/lld-link.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/lld-link.com"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/lld-link.exe"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/lld-link.com"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/lld-link.exe"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/lld-link"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/lld-link"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/lld-link"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/lld-link.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/lld-link"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/tsaan/.local/bin/lld-link.com"
+      - "C:/Users/tsaan/.local/bin/lld-link.exe"
+      - "C:/Users/tsaan/.local/bin/lld-link"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\Keyman\\Keyman Developer"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312\\Scripts"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\tsaan\\.local\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tsaan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tsaan\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/"
+      - "C:/Users/tsaan/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/tsaan/.local/bin/"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/link.com"
+    found: "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\Keyman\\Keyman Developer"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312\\Scripts"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\tsaan\\.local\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tsaan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tsaan\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/"
+      - "C:/Users/tsaan/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/tsaan/.local/bin/"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/mt.com"
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/mt.exe"
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/mt"
+      - "C:/Users/tsaan/bin/mt.com"
+      - "C:/Users/tsaan/bin/mt.exe"
+      - "C:/Users/tsaan/bin/mt"
+      - "C:/Program Files/Git/mingw64/bin/mt.com"
+      - "C:/Program Files/Git/mingw64/bin/mt.exe"
+      - "C:/Program Files/Git/mingw64/bin/mt"
+      - "C:/Program Files/Git/usr/local/bin/mt.com"
+      - "C:/Program Files/Git/usr/local/bin/mt.exe"
+      - "C:/Program Files/Git/usr/local/bin/mt"
+      - "C:/Program Files/Git/usr/bin/mt.com"
+      - "C:/Program Files/Git/usr/bin/mt.exe"
+      - "C:/Program Files/Git/usr/bin/mt"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.com"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.exe"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/mt.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/mt.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/mt.com"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/mt.exe"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/mt.com"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/mt.exe"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/mt"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/mt.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/mt"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/mt.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/mt"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/mt.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/mt.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/mt.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/mt"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/mt.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/mt.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/mt"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/tsaan/.local/bin/mt.com"
+      - "C:/Users/tsaan/.local/bin/mt.exe"
+      - "C:/Users/tsaan/.local/bin/mt"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt.com"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt.exe"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\Keyman\\Keyman Developer"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312\\Scripts"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\tsaan\\.local\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tsaan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tsaan\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/"
+      - "C:/Users/tsaan/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/tsaan/.local/bin/"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/lib.com"
+    found: "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\Keyman\\Keyman Developer"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312\\Scripts"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\tsaan\\.local\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tsaan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tsaan\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\Keyman\\Keyman Developer"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312\\Scripts"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\tsaan\\.local\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tsaan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tsaan\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+      鐢熸垚鍚姩鏃堕棿涓?4/19/2026 9:48:15 AM銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\dev\\PIME\\build_probe\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淐:\\dev\\PIME\\build_probe\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.08
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/dev/PIME/build_probe/CMakeFiles/4.3.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/"
+      - "C:/Users/tsaan/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/tsaan/.local/bin/"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/lld-link.com"
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/lld-link.exe"
+      - "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/lld-link"
+      - "C:/Users/tsaan/bin/lld-link.com"
+      - "C:/Users/tsaan/bin/lld-link.exe"
+      - "C:/Users/tsaan/bin/lld-link"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/lld-link"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/lld-link.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/lld-link.com"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/lld-link.exe"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/lld-link.com"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/lld-link.exe"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/lld-link"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/lld-link"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/lld-link"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/lld-link.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/lld-link"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/tsaan/.local/bin/lld-link.com"
+      - "C:/Users/tsaan/.local/bin/lld-link.exe"
+      - "C:/Users/tsaan/.local/bin/lld-link"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\Keyman\\Keyman Developer"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312\\Scripts"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\tsaan\\.local\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tsaan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tsaan\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/tsaan/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/tsaan/.local/bin/"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/PIME/bin/"
+      - "C:/Program Files (x86)/PIME/sbin/"
+      - "C:/Program Files (x86)/PIME/"
+    searched_directories:
+      - "C:/Users/tsaan/bin/rc.com"
+      - "C:/Users/tsaan/bin/rc.exe"
+      - "C:/Users/tsaan/bin/rc"
+      - "C:/Program Files/Git/mingw64/bin/rc.com"
+      - "C:/Program Files/Git/mingw64/bin/rc.exe"
+      - "C:/Program Files/Git/mingw64/bin/rc"
+      - "C:/Program Files/Git/usr/local/bin/rc.com"
+      - "C:/Program Files/Git/usr/local/bin/rc.exe"
+      - "C:/Program Files/Git/usr/local/bin/rc"
+      - "C:/Program Files/Git/usr/bin/rc.com"
+      - "C:/Program Files/Git/usr/bin/rc.exe"
+      - "C:/Program Files/Git/usr/bin/rc"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.com"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.exe"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/rc.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/rc.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/rc.com"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/rc.exe"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/rc.com"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/rc.exe"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/rc"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/rc.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/rc"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/rc.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/rc"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/rc.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/rc.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/rc.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/rc"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/rc.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/rc.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/rc"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/tsaan/.local/bin/rc.com"
+      - "C:/Users/tsaan/.local/bin/rc.exe"
+      - "C:/Users/tsaan/.local/bin/rc"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc.com"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc.exe"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/PIME/bin/rc.com"
+      - "C:/Program Files (x86)/PIME/bin/rc.exe"
+      - "C:/Program Files (x86)/PIME/bin/rc"
+      - "C:/Program Files (x86)/PIME/sbin/rc.com"
+      - "C:/Program Files (x86)/PIME/sbin/rc.exe"
+      - "C:/Program Files (x86)/PIME/sbin/rc"
+      - "C:/Program Files (x86)/PIME/rc.com"
+      - "C:/Program Files (x86)/PIME/rc.exe"
+      - "C:/Program Files (x86)/PIME/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\Keyman\\Keyman Developer"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312\\Scripts"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\tsaan\\.local\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tsaan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tsaan\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PIME"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/PIME"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-nyz8ql"
+      binary: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-nyz8ql"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/dev/PIME/cmake/c_flag_overrides.cmake"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-nyz8ql'
+        
+        Run Build Command(s): C:/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bc9dc.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?4/19/2026 9:48:17 AM銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-nyz8ql\\cmTC_bc9dc.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-nyz8ql\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_bc9dc.dir\\Debug\\cmTC_bc9dc.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_bc9dc.dir\\Debug\\cmTC_bc9dc.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_bc9dc.dir\\Debug\\cmTC_bc9dc.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bc9dc.dir\\Debug\\\\" /Fd"cmTC_bc9dc.dir\\Debug\\vc143.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x86 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35225 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bc9dc.dir\\Debug\\\\" /Fd"cmTC_bc9dc.dir\\Debug\\vc143.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-nyz8ql\\Debug\\cmTC_bc9dc.exe" /INCREMENTAL /ILK:"cmTC_bc9dc.dir\\Debug\\cmTC_bc9dc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-nyz8ql/Debug/cmTC_bc9dc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-nyz8ql/Debug/cmTC_bc9dc.lib" /MACHINE:X86  /machine:X86 cmTC_bc9dc.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_bc9dc.vcxproj -> C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-nyz8ql\\Debug\\cmTC_bc9dc.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_bc9dc.dir\\Debug\\cmTC_bc9dc.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_bc9dc.dir\\Debug\\cmTC_bc9dc.tlog\\cmTC_bc9dc.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-nyz8ql\\cmTC_bc9dc.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.03
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Running the C compiler's linker: "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35225.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-zqy49y"
+      binary: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-zqy49y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_USER_MAKE_RULES_OVERRIDE_CXX: "C:/dev/PIME/cmake/cxx_flag_overrides.cmake"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-zqy49y'
+        
+        Run Build Command(s): C:/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dd3d7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?4/19/2026 9:48:18 AM銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-zqy49y\\cmTC_dd3d7.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-zqy49y\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_dd3d7.dir\\Debug\\cmTC_dd3d7.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_dd3d7.dir\\Debug\\cmTC_dd3d7.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_dd3d7.dir\\Debug\\cmTC_dd3d7.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_dd3d7.dir\\Debug\\\\" /Fd"cmTC_dd3d7.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x86 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35225 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_dd3d7.dir\\Debug\\\\" /Fd"cmTC_dd3d7.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-zqy49y\\Debug\\cmTC_dd3d7.exe" /INCREMENTAL /ILK:"cmTC_dd3d7.dir\\Debug\\cmTC_dd3d7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-zqy49y/Debug/cmTC_dd3d7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-zqy49y/Debug/cmTC_dd3d7.lib" /MACHINE:X86  /machine:X86 cmTC_dd3d7.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_dd3d7.vcxproj -> C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-zqy49y\\Debug\\cmTC_dd3d7.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_dd3d7.dir\\Debug\\cmTC_dd3d7.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_dd3d7.dir\\Debug\\cmTC_dd3d7.tlog\\cmTC_dd3d7.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-zqy49y\\cmTC_dd3d7.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.02
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35225.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "jsoncpp/CMakeLists.txt:130 (FIND_PROGRAM)"
+    mode: "program"
+    variable: "CCACHE_FOUND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ccache"
+    candidate_directories:
+      - "C:/Users/tsaan/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/tsaan/.local/bin/"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/PIME/bin/"
+      - "C:/Program Files (x86)/PIME/sbin/"
+      - "C:/Program Files (x86)/PIME/"
+    searched_directories:
+      - "C:/Users/tsaan/bin/ccache.com"
+      - "C:/Users/tsaan/bin/ccache.exe"
+      - "C:/Users/tsaan/bin/ccache"
+      - "C:/Program Files/Git/mingw64/bin/ccache.com"
+      - "C:/Program Files/Git/mingw64/bin/ccache.exe"
+      - "C:/Program Files/Git/mingw64/bin/ccache"
+      - "C:/Program Files/Git/usr/local/bin/ccache.com"
+      - "C:/Program Files/Git/usr/local/bin/ccache.exe"
+      - "C:/Program Files/Git/usr/local/bin/ccache"
+      - "C:/Program Files/Git/usr/bin/ccache.com"
+      - "C:/Program Files/Git/usr/bin/ccache.exe"
+      - "C:/Program Files/Git/usr/bin/ccache"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache.com"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache.exe"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache.com"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache.exe"
+      - "C:/Users/tsaan/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/ccache.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/ccache.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/ccache"
+      - "C:/Windows/System32/ccache.com"
+      - "C:/Windows/System32/ccache.exe"
+      - "C:/Windows/System32/ccache"
+      - "C:/Windows/ccache.com"
+      - "C:/Windows/ccache.exe"
+      - "C:/Windows/ccache"
+      - "C:/Windows/System32/wbem/ccache.com"
+      - "C:/Windows/System32/wbem/ccache.exe"
+      - "C:/Windows/System32/wbem/ccache"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ccache.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ccache.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ccache"
+      - "C:/Windows/System32/OpenSSH/ccache.com"
+      - "C:/Windows/System32/OpenSSH/ccache.exe"
+      - "C:/Windows/System32/OpenSSH/ccache"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/ccache.com"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/ccache.exe"
+      - "C:/Program Files (x86)/Keyman/Keyman Developer/ccache"
+      - "C:/Program Files/dotnet/ccache.com"
+      - "C:/Program Files/dotnet/ccache.exe"
+      - "C:/Program Files/dotnet/ccache"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/ccache.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/ccache.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/ccache"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ccache.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ccache.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ccache"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/ccache.com"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/ccache.exe"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/ccache"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/ccache.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/ccache.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/SnapAPI/ccache"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/ccache.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/ccache.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile/ccache"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/ccache.com"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/ccache.exe"
+      - "C:/Program Files (x86)/Common Files/Acronis/VirtualFile64/ccache"
+      - "C:/Program Files/Git/cmd/ccache.com"
+      - "C:/Program Files/Git/cmd/ccache.exe"
+      - "C:/Program Files/Git/cmd/ccache"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/ccache.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/ccache.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/Scripts/ccache"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/ccache.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/ccache.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Python312/ccache"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/ccache.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/ccache.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Python/Launcher/ccache"
+      - "C:/Users/tsaan/.local/bin/ccache.com"
+      - "C:/Users/tsaan/.local/bin/ccache.exe"
+      - "C:/Users/tsaan/.local/bin/ccache"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/ccache.com"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/ccache.exe"
+      - "C:/Users/tsaan/AppData/Local/Microsoft/WindowsApps/ccache"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/ccache.com"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/ccache.exe"
+      - "C:/Users/tsaan/AppData/Local/GitHubDesktop/bin/ccache"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/ccache.com"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/ccache.exe"
+      - "C:/Users/tsaan/AppData/Local/Programs/Microsoft VS Code/bin/ccache"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/ccache.com"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/ccache.exe"
+      - "C:/Users/tsaan/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/ccache"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/ccache.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/ccache.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/ccache"
+      - "C:/Program Files/Git/usr/bin/core_perl/ccache.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/ccache.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/ccache"
+      - "C:/Program Files/bin/ccache.com"
+      - "C:/Program Files/bin/ccache.exe"
+      - "C:/Program Files/bin/ccache"
+      - "C:/Program Files/sbin/ccache.com"
+      - "C:/Program Files/sbin/ccache.exe"
+      - "C:/Program Files/sbin/ccache"
+      - "C:/Program Files/ccache.com"
+      - "C:/Program Files/ccache.exe"
+      - "C:/Program Files/ccache"
+      - "C:/Program Files (x86)/bin/ccache.com"
+      - "C:/Program Files (x86)/bin/ccache.exe"
+      - "C:/Program Files (x86)/bin/ccache"
+      - "C:/Program Files (x86)/sbin/ccache.com"
+      - "C:/Program Files (x86)/sbin/ccache.exe"
+      - "C:/Program Files (x86)/sbin/ccache"
+      - "C:/Program Files (x86)/ccache.com"
+      - "C:/Program Files (x86)/ccache.exe"
+      - "C:/Program Files (x86)/ccache"
+      - "C:/Program Files/CMake/bin/ccache.com"
+      - "C:/Program Files/CMake/bin/ccache.exe"
+      - "C:/Program Files/CMake/bin/ccache"
+      - "C:/Program Files/CMake/sbin/ccache.com"
+      - "C:/Program Files/CMake/sbin/ccache.exe"
+      - "C:/Program Files/CMake/sbin/ccache"
+      - "C:/Program Files/CMake/ccache.com"
+      - "C:/Program Files/CMake/ccache.exe"
+      - "C:/Program Files/CMake/ccache"
+      - "C:/Program Files (x86)/PIME/bin/ccache.com"
+      - "C:/Program Files (x86)/PIME/bin/ccache.exe"
+      - "C:/Program Files (x86)/PIME/bin/ccache"
+      - "C:/Program Files (x86)/PIME/sbin/ccache.com"
+      - "C:/Program Files (x86)/PIME/sbin/ccache.exe"
+      - "C:/Program Files (x86)/PIME/sbin/ccache"
+      - "C:/Program Files (x86)/PIME/ccache.com"
+      - "C:/Program Files (x86)/PIME/ccache.exe"
+      - "C:/Program Files (x86)/PIME/ccache"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\tsaan\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\tsaan\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files (x86)\\Keyman\\Keyman Developer"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile"
+        - "C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile64"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312\\Scripts"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\tsaan\\.local\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tsaan\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tsaan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tsaan\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PIME"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/PIME"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFileCXX.cmake:143 (try_compile)"
+      - "jsoncpp/src/lib_json/CMakeLists.txt:17 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include clocale"
+    directories:
+      source: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-f7jnr0"
+      binary: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-f7jnr0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_USER_MAKE_RULES_OVERRIDE_CXX: "C:/dev/PIME/cmake/cxx_flag_overrides.cmake"
+    buildResult:
+      variable: "HAVE_CLOCALE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-f7jnr0'
+        
+        Run Build Command(s): C:/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_693f3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?4/19/2026 9:48:20 AM銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-f7jnr0\\cmTC_693f3.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-f7jnr0\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_693f3.dir\\Debug\\cmTC_693f3.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_693f3.dir\\Debug\\cmTC_693f3.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_693f3.dir\\Debug\\cmTC_693f3.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_693f3.dir\\Debug\\\\" /Fd"cmTC_693f3.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-f7jnr0\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x86 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35225 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_693f3.dir\\Debug\\\\" /Fd"cmTC_693f3.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-f7jnr0\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        Link:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-f7jnr0\\Debug\\cmTC_693f3.exe" /INCREMENTAL /ILK:"cmTC_693f3.dir\\Debug\\cmTC_693f3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-f7jnr0/Debug/cmTC_693f3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-f7jnr0/Debug/cmTC_693f3.lib" /MACHINE:X86  /machine:X86 cmTC_693f3.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_693f3.vcxproj -> C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-f7jnr0\\Debug\\cmTC_693f3.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_693f3.dir\\Debug\\cmTC_693f3.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_693f3.dir\\Debug\\cmTC_693f3.tlog\\cmTC_693f3.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-f7jnr0\\cmTC_693f3.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.05
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckSymbolExists.cmake:193 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCXXSymbolExists.cmake:105 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "jsoncpp/src/lib_json/CMakeLists.txt:18 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for localeconv"
+    directories:
+      source: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-hswhs2"
+      binary: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-hswhs2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_USER_MAKE_RULES_OVERRIDE_CXX: "C:/dev/PIME/cmake/cxx_flag_overrides.cmake"
+    buildResult:
+      variable: "HAVE_LOCALECONV"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-hswhs2'
+        
+        Run Build Command(s): C:/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2e388.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?4/19/2026 9:48:21 AM銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-hswhs2\\cmTC_2e388.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-hswhs2\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_2e388.dir\\Debug\\cmTC_2e388.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_2e388.dir\\Debug\\cmTC_2e388.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_2e388.dir\\Debug\\cmTC_2e388.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_2e388.dir\\Debug\\\\" /Fd"cmTC_2e388.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-hswhs2\\CheckSymbolExists.cxx"
+          鐢ㄤ簬 x86 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35225 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_2e388.dir\\Debug\\\\" /Fd"cmTC_2e388.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-hswhs2\\CheckSymbolExists.cxx"
+          CheckSymbolExists.cxx
+        Link:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-hswhs2\\Debug\\cmTC_2e388.exe" /INCREMENTAL /ILK:"cmTC_2e388.dir\\Debug\\cmTC_2e388.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-hswhs2/Debug/cmTC_2e388.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-hswhs2/Debug/cmTC_2e388.lib" /MACHINE:X86  /machine:X86 cmTC_2e388.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_2e388.vcxproj -> C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-hswhs2\\Debug\\cmTC_2e388.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_2e388.dir\\Debug\\cmTC_2e388.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_2e388.dir\\Debug\\cmTC_2e388.tlog\\cmTC_2e388.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-hswhs2\\cmTC_2e388.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.05
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFileCXX.cmake:143 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckTypeSize.cmake:466 (check_include_file_cxx)"
+      - "jsoncpp/src/lib_json/CMakeLists.txt:30 (check_type_size)"
+    checks:
+      - "Looking for C++ include sys/types.h"
+    directories:
+      source: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-d6n38v"
+      binary: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-d6n38v"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_USER_MAKE_RULES_OVERRIDE_CXX: "C:/dev/PIME/cmake/cxx_flag_overrides.cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-d6n38v'
+        
+        Run Build Command(s): C:/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0b8be.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?4/19/2026 9:48:23 AM銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-d6n38v\\cmTC_0b8be.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-d6n38v\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_0b8be.dir\\Debug\\cmTC_0b8be.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_0b8be.dir\\Debug\\cmTC_0b8be.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_0b8be.dir\\Debug\\cmTC_0b8be.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_0b8be.dir\\Debug\\\\" /Fd"cmTC_0b8be.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-d6n38v\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x86 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35225 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_0b8be.dir\\Debug\\\\" /Fd"cmTC_0b8be.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-d6n38v\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        Link:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-d6n38v\\Debug\\cmTC_0b8be.exe" /INCREMENTAL /ILK:"cmTC_0b8be.dir\\Debug\\cmTC_0b8be.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-d6n38v/Debug/cmTC_0b8be.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-d6n38v/Debug/cmTC_0b8be.lib" /MACHINE:X86  /machine:X86 cmTC_0b8be.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_0b8be.vcxproj -> C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-d6n38v\\Debug\\cmTC_0b8be.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_0b8be.dir\\Debug\\cmTC_0b8be.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_0b8be.dir\\Debug\\cmTC_0b8be.tlog\\cmTC_0b8be.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-d6n38v\\cmTC_0b8be.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.05
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFileCXX.cmake:143 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckTypeSize.cmake:471 (check_include_file_cxx)"
+      - "jsoncpp/src/lib_json/CMakeLists.txt:30 (check_type_size)"
+    checks:
+      - "Looking for C++ include stdint.h"
+    directories:
+      source: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-8mwric"
+      binary: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-8mwric"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_USER_MAKE_RULES_OVERRIDE_CXX: "C:/dev/PIME/cmake/cxx_flag_overrides.cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-8mwric'
+        
+        Run Build Command(s): C:/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_365b1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?4/19/2026 9:48:24 AM銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-8mwric\\cmTC_365b1.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-8mwric\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_365b1.dir\\Debug\\cmTC_365b1.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_365b1.dir\\Debug\\cmTC_365b1.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_365b1.dir\\Debug\\cmTC_365b1.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_365b1.dir\\Debug\\\\" /Fd"cmTC_365b1.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-8mwric\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x86 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35225 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_365b1.dir\\Debug\\\\" /Fd"cmTC_365b1.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-8mwric\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        Link:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-8mwric\\Debug\\cmTC_365b1.exe" /INCREMENTAL /ILK:"cmTC_365b1.dir\\Debug\\cmTC_365b1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-8mwric/Debug/cmTC_365b1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-8mwric/Debug/cmTC_365b1.lib" /MACHINE:X86  /machine:X86 cmTC_365b1.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_365b1.vcxproj -> C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-8mwric\\Debug\\cmTC_365b1.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_365b1.dir\\Debug\\cmTC_365b1.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_365b1.dir\\Debug\\cmTC_365b1.tlog\\cmTC_365b1.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-8mwric\\cmTC_365b1.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.06
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFileCXX.cmake:143 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckTypeSize.cmake:472 (check_include_file_cxx)"
+      - "jsoncpp/src/lib_json/CMakeLists.txt:30 (check_type_size)"
+    checks:
+      - "Looking for C++ include stddef.h"
+    directories:
+      source: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-vwc3mr"
+      binary: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-vwc3mr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_USER_MAKE_RULES_OVERRIDE_CXX: "C:/dev/PIME/cmake/cxx_flag_overrides.cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-vwc3mr'
+        
+        Run Build Command(s): C:/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_449ab.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?4/19/2026 9:48:25 AM銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-vwc3mr\\cmTC_449ab.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-vwc3mr\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_449ab.dir\\Debug\\cmTC_449ab.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_449ab.dir\\Debug\\cmTC_449ab.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_449ab.dir\\Debug\\cmTC_449ab.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_449ab.dir\\Debug\\\\" /Fd"cmTC_449ab.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-vwc3mr\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x86 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35225 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_449ab.dir\\Debug\\\\" /Fd"cmTC_449ab.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-vwc3mr\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        Link:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-vwc3mr\\Debug\\cmTC_449ab.exe" /INCREMENTAL /ILK:"cmTC_449ab.dir\\Debug\\cmTC_449ab.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-vwc3mr/Debug/cmTC_449ab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-vwc3mr/Debug/cmTC_449ab.lib" /MACHINE:X86  /machine:X86 cmTC_449ab.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_449ab.vcxproj -> C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-vwc3mr\\Debug\\cmTC_449ab.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_449ab.dir\\Debug\\cmTC_449ab.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_449ab.dir\\Debug\\cmTC_449ab.tlog\\cmTC_449ab.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-vwc3mr\\cmTC_449ab.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.06
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckTypeSize.cmake:348 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckTypeSize.cmake:481 (__check_type_size_impl)"
+      - "jsoncpp/src/lib_json/CMakeLists.txt:30 (check_type_size)"
+    checks:
+      - "Check size of lconv"
+    directories:
+      source: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-fb6vwh"
+      binary: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-fb6vwh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_USER_MAKE_RULES_OVERRIDE_CXX: "C:/dev/PIME/cmake/cxx_flag_overrides.cmake"
+    buildResult:
+      variable: "HAVE_LCONV_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-fb6vwh'
+        
+        Run Build Command(s): C:/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d6429.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?4/19/2026 9:48:27 AM銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-fb6vwh\\cmTC_d6429.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-fb6vwh\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d6429.dir\\Debug\\cmTC_d6429.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_d6429.dir\\Debug\\cmTC_d6429.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d6429.dir\\Debug\\cmTC_d6429.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_d6429.dir\\Debug\\\\" /Fd"cmTC_d6429.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-fb6vwh\\LCONV_SIZE.cpp"
+          鐢ㄤ簬 x86 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35225 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_d6429.dir\\Debug\\\\" /Fd"cmTC_d6429.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-fb6vwh\\LCONV_SIZE.cpp"
+          LCONV_SIZE.cpp
+        Link:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-fb6vwh\\Debug\\cmTC_d6429.exe" /INCREMENTAL /ILK:"cmTC_d6429.dir\\Debug\\cmTC_d6429.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-fb6vwh/Debug/cmTC_d6429.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-fb6vwh/Debug/cmTC_d6429.lib" /MACHINE:X86  /machine:X86 cmTC_d6429.dir\\Debug\\LCONV_SIZE.obj
+          cmTC_d6429.vcxproj -> C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-fb6vwh\\Debug\\cmTC_d6429.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_d6429.dir\\Debug\\cmTC_d6429.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d6429.dir\\Debug\\cmTC_d6429.tlog\\cmTC_d6429.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-fb6vwh\\cmTC_d6429.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.05
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckSourceCompiles.cmake:205 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckStructHasMember.cmake:163 (check_source_compiles)"
+      - "jsoncpp/src/lib_json/CMakeLists.txt:32 (check_struct_has_member)"
+    checks:
+      - "Performing Test HAVE_DECIMAL_POINT"
+    directories:
+      source: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-ejketm"
+      binary: "C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-ejketm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_USER_MAKE_RULES_OVERRIDE_CXX: "C:/dev/PIME/cmake/cxx_flag_overrides.cmake"
+    buildResult:
+      variable: "HAVE_DECIMAL_POINT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-ejketm'
+        
+        Run Build Command(s): C:/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3e950.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?4/19/2026 9:48:28 AM銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-ejketm\\cmTC_3e950.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-ejketm\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_3e950.dir\\Debug\\cmTC_3e950.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_3e950.dir\\Debug\\cmTC_3e950.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_3e950.dir\\Debug\\cmTC_3e950.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D HAVE_DECIMAL_POINT /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_3e950.dir\\Debug\\\\" /Fd"cmTC_3e950.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-ejketm\\src.cxx"
+          鐢ㄤ簬 x86 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35225 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _DEBUG /D HAVE_DECIMAL_POINT /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_3e950.dir\\Debug\\\\" /Fd"cmTC_3e950.dir\\Debug\\vc143.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-ejketm\\src.cxx"
+          src.cxx
+        Link:
+          C:\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-ejketm\\Debug\\cmTC_3e950.exe" /INCREMENTAL /ILK:"cmTC_3e950.dir\\Debug\\cmTC_3e950.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-ejketm/Debug/cmTC_3e950.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/PIME/build_probe/CMakeFiles/CMakeScratch/TryCompile-ejketm/Debug/cmTC_3e950.lib" /MACHINE:X86  /machine:X86 cmTC_3e950.dir\\Debug\\src.obj
+          cmTC_3e950.vcxproj -> C:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-ejketm\\Debug\\cmTC_3e950.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_3e950.dir\\Debug\\cmTC_3e950.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_3e950.dir\\Debug\\cmTC_3e950.tlog\\cmTC_3e950.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\dev\\PIME\\build_probe\\CMakeFiles\\CMakeScratch\\TryCompile-ejketm\\cmTC_3e950.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.04
+        
+      exitCode: 0
+...
